@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #eef6fb;
+}
+ 
+#anzeige {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto 10px auto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1f4e79;
+}
+ 
+#spielfeld {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #dff0d8;
+  border: 2px solid #2e75b6;
+  border-radius: 8px;
+  overflow: hidden;
+}
+ 
+#fliege {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+ 
+#neustartButton {
+  margin-top: 15px;
+  padding: 10px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2e75b6;
+  color: white;
+}
